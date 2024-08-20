@@ -1,0 +1,152 @@
+/* * {
+    border: #cf0a2c solid 2px;
+} */
+
+body {
+    background-color: #f1b9a2;
+}
+
+h1 {
+    background-color: #ffb81c;
+    color: #cf0a2c;
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+
+a {
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #cf0a2c;
+    text-decoration: none;
+    
+}
+
+.link {
+    text-align: center;
+}
+
+a:hover { 
+    color: #cf0a2c;
+    background-color: #ffb81c;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #cf0a2c;
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #ffb81c;
+}
+
+p {
+    color: #cf0a2c;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    color: #cf0a2c;
+    background-color: rgb(255, 184, 28);
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+ol, ul {
+    color: #cf0a2c;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listItems {
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #cf0a2c;
+    text-decoration: none;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+#gasStationPic {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 184, 28, 0.5);
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-items {
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #cf0a2c;
+    text-decoration: none;
+}
+
+#firstName, #lastName, #phone, #email {
+    background-color: #ffc64b;
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #cf0a2c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#firstName::placeholder, #lastName::placeholder, #phone::placeholder, #email::placeholder {
+    color: #cf0a2c;
+}
+
+#submit {
+    border: #cf0a2c solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #cf0a2c;
+    text-decoration: none;
+    background-color: #ffc64b;
+}
+
+#submit:hover {
+    color: #cf0a2c;
+    background-color: #ffb81c;
+    font-weight: bold;
+}
+
+#employeeImg {
+    border: #cf0a2c solid 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 184, 28, 0.5);
+    margin-top: 30px;
+    width: 1000px;
+}
+
