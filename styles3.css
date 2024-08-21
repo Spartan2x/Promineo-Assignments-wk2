@@ -1,11 +1,12 @@
 /* * {
     border: #cf0a2c solid 2px;
 } */
-
+ /* Added a background color to the body here which changed the color of the whole page */
 body {
     background-color: #f1b9a2;
 }
-
+ */
+/* Here is the styling for the header, with a background color, text color, border, border radius, padding, text align, text transform, font weight, font style, and font size */
 h1 {
     background-color: #ffb81c;
     color: #cf0a2c;
@@ -18,7 +19,7 @@ h1 {
     font-style: italic;
     font-size: 50px;
 }
-
+/* here is the styling for the links to other pages. The border, border radius, padding, color, and text decoration */
 a {
     border: #cf0a2c solid 2px;
     border-radius: 5px;
@@ -27,17 +28,17 @@ a {
     text-decoration: none;
     
 }
-
+/* Here I changed the .link class to center the text within the div */
 .link {
     text-align: center;
 }
-
+/* this added a hover effect to the links */
 a:hover { 
     color: #cf0a2c;
     background-color: #ffb81c;
     font-weight: bold;
 }
-
+/* here I changed the h2 to center the text, and then changed the color, border, border radius, padding, text transform, font weight, font style, and background color */
 h2 {
     text-align: center;
     color: #cf0a2c;
@@ -49,14 +50,14 @@ h2 {
     font-style: italic;
     background-color: #ffb81c;
 }
-
+/* this is the paragraph element selector which changed the color, font weight, font style, and text align */
 p {
     color: #cf0a2c;
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
-
+/* this header is for the h3. The color, background color, border, border radius, padding, text align, font weight, font style, and font size were all styled.  */
 h3 {
     color: #cf0a2c;
     background-color: rgb(255, 184, 28);
@@ -68,19 +69,19 @@ h3 {
     font-style: italic;
     font-size: larger;
 }
-
+/* the ol and ul selectors were used to change the color, font weight, font style, and text align of the items within the list */
 ol, ul {
     color: #cf0a2c;
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
-
+/* here i changed the div container to display flex, justify content, and space evenly. this contains the list items */
 .container {
     display: flex;
     justify-content: space-evenly;
 }
-
+/* this is how I changed the list items appearance */
 .listItems {
     border: #cf0a2c solid 2px;
     border-radius: 5px;
@@ -88,23 +89,23 @@ ol, ul {
     color: #cf0a2c;
     text-decoration: none;
 }
-
+/* this let me change the image class in the div to a display flex. this centers the image */
 .image {
     display: flex;
     justify-content: center;
 }
-
+/* here i used an ID selector to change the image properties specifically. */
 #gasStationPic {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(255, 184, 28, 0.5);
     margin-top: 30px;
     width: 1000px;
 }
-
+/* this is how i centered the form */
 .form {
     text-align: center;
 }
-
+/* changed the items in the form  */
 .form-items {
     border: #cf0a2c solid 2px;
     border-radius: 5px;
@@ -112,7 +113,7 @@ ol, ul {
     color: #cf0a2c;
     text-decoration: none;
 }
-
+/* this was how I changed the color and etc of the items in the form */
 #firstName, #lastName, #phone, #email {
     background-color: #ffc64b;
     border: #cf0a2c solid 2px;
@@ -122,11 +123,11 @@ ol, ul {
     font-weight: bold;
     text-decoration: none;
 }
-
+/* this is how i changed the front color of the placeholder */
 #firstName::placeholder, #lastName::placeholder, #phone::placeholder, #email::placeholder {
     color: #cf0a2c;
 }
-
+/* changed the font on the submit button */
 #submit {
     border: #cf0a2c solid 2px;
     border-radius: 5px;
@@ -135,13 +136,13 @@ ol, ul {
     text-decoration: none;
     background-color: #ffc64b;
 }
-
+/* gave the submit a hover effect */
 #submit:hover {
     color: #cf0a2c;
     background-color: #ffb81c;
     font-weight: bold;
 }
-
+/* changed the employee image slightly */
 #employeeImg {
     border: #cf0a2c solid 2px;
     border-radius: 10px;
@@ -149,7 +150,7 @@ ol, ul {
     margin-top: 30px;
     width: 1000px;
 }
-
+/* this is how i changed the center of the table aligment and the colors */
 .table {
     display: flex;
     justify-content: center;
@@ -158,19 +159,19 @@ ol, ul {
     font-weight: bold;
     font-size: larger;
 }
-
+/* changed the tables headers here */
 th {
     border: #cf0a2c solid 2px;
     border-radius: 5px;
     background-color: #ffb81c;
 }
-
+/* changed the image of the social media icons */
 #socialImg {
     border: #cf0a2c solid 2px;
     border-radius: 10px;
     margin-top: 30px;
 }
-
+/* removed the annoying border of the table */
 #facebook, #instagram, #twitter, #tiktok {
     border: none;
 }
